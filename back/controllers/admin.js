@@ -2,6 +2,8 @@ const User = require("../models/User");
 const Categoria = require("../models/Categorias");
 const Product = require("../models/Product");
 
+
+
 const adminController = {
   findUsers(req, res) {
     User.find()
